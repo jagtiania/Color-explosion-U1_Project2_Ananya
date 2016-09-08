@@ -55,9 +55,9 @@ void draw()
   ellipseX = ellipseX + ellipseSpeed;
   ellipse2X = ellipse2X + ellipse2Speed;
  
-  fill(255,255,255);
+  random(255,255);
   ellipse(ellipseX, ellipseY, ellipseW, ellipseH);
-  fill(255,0,0);
+  random(10,20);
   ellipse(ellipse2X, ellipse2Y, ellipse2W, ellipse2H);
 }
  
