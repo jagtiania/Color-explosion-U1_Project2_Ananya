@@ -8,6 +8,8 @@ float[] explosionX;
 float[] explosionY;
 float[] velX; 
 float[] velY;
+float[] xmove; 
+float[] ymove; 
  
 //Properties of second rectangle
 float ellipse2X = 1000;
@@ -24,6 +26,8 @@ void setup()
   explosionY = new float [20];
   velX = new float [30]; 
   velY = new float [20];
+  xmove= new float [10];
+  ymove= new float [10];
 }
  
 void draw()
