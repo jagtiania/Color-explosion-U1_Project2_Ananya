@@ -7,6 +7,7 @@ float ellipseSpeed = 5;
 float[] explosionX;
 float[] explosionY;
 float[] velX; 
+float[] velY;
  
 //Properties of second rectangle
 float ellipse2X = 1000;
@@ -22,6 +23,7 @@ void setup()
   explosionX = new float [20];
   explosionY = new float [20];
   velX = new float [30]; 
+  velY = new float [20];
 }
  
 void draw()
@@ -37,6 +39,7 @@ void draw()
       explosionX[i]=ellipseX;
       explosionY[i]=ellipseY;
       velX[i]=random(-5,5);
+      velY[i]=random(-2,3); 
     }
   }  
   
