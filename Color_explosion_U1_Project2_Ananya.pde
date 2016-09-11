@@ -1,8 +1,8 @@
-float ellipseX = 0;
+float ellipseX = 10;
 float ellipseY = 200;
-float ellipseW = 50;
-float ellipseH = 50;
-float ellipseSpeed = 5;
+float ellipseW = 80;
+float ellipseH = 80;
+float ellipseSpeed = 10;
 
 float[] explosionX;
 float[] explosionY;
@@ -14,9 +14,9 @@ float[] ymove;
 //Properties of second rectangle
 float ellipse2X = 1000;
 float ellipse2Y = 200;
-float ellipse2W = 50;
-float ellipse2H = 50;
-float ellipse2Speed = -5;
+float ellipse2W = 80;
+float ellipse2H = 80;
+float ellipse2Speed = -10;
 boolean hasExploded = false;
  
 void setup()
