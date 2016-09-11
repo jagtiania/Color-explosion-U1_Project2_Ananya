@@ -47,7 +47,7 @@ void draw()
     }
   }  
   
-  if(hasExploded==true)
+  if(hasExploded==true)//when two circles touch the little circles form 
   {
     for (int i=0; i<20; i++)
     {
