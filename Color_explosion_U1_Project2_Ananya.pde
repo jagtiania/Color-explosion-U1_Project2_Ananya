@@ -59,7 +59,7 @@ void draw()
   ellipseX = ellipseX + ellipseSpeed;
   ellipse2X = ellipse2X + ellipse2Speed;
  
-  random(255,255);
+  fill(150,180,200);
   ellipse(ellipseX, ellipseY, ellipseW, ellipseH);
   random(10,20);
   ellipse(ellipse2X, ellipse2Y, ellipse2W, ellipse2H);
