@@ -1,3 +1,4 @@
+//description: This project is where I had to include collisions and functions and what happens when both of these circles collide, little circles start forming and they start moving backwards from both of the big circles.  
 float ellipseX = 10;
 float ellipseY = 200;
 float ellipseW = 80;
